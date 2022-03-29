@@ -1,7 +1,5 @@
 # Cheatsheet - GitHub Markdown #
 
-test
-
 Источники:
 * https://github.com/sandino/Markdown-Cheatsheet
 * https://www.markdownguide.org/basic-syntax
