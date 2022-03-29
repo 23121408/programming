@@ -1,5 +1,62 @@
-# JavaScript - part_2 - Variables and Primitives
+# Setup #
 
+To open up the console in browser press `Option + Command + j` on a Mac (or `Control + Shift + J` on Windows and Linux). Another way to get to the console is to right click on the web page, select `Inspect`, and then move to the tab called `Console`.
+
+---
+
+Alerting a message. In the Chrome Console, type the following:
+
+```javascript
+alert('JavaScript is sweet!');
+```
+
+---
+
+You can also tell JavaScript to log a message directly to the console, using a function called `console.log`. Type `console.log('This is less obtrusive.');`
+
+---
+
+You can change position of console by pressing three vertical dots → and find chapter `Dock syde`.
+
+---
+
+Declare variable `var` called an `instructor` using the var key word and assign it to the string `"Elie"`:
+
+```javascript
+var instructor = "Elie";
+```
+
+Now if I wanna access that variable I can just type instructor and press enter
+`instructor`
+
+Let's try to access that var again, and as u can see I'am typing the console is guessing what command I'am trying to type. Soo I can press `tab` to aftercomplete witch is very helpful.
+
+---
+
+5. We can also evaluate a math expressions in the console. Soo I can see 25 * 40 is a 1000
+> 25 * 40
+
+6. We also get an immediately feedback if we made mistakes. Soo I declare a variable called wrong and assign it with a string with a small syntax error:
+> var wrong = "oops
+when I press enter, the console tells me right away what I did wrong
+
+7. If you would like to clear the console you can either type in clear() and press enter or press command + k, or mouse over the ban circle icon.
+
+8. But what about my previos commands, what if I wanna access them? Thankfully we can press up my past commands. Soo lets find my syntax error and fix that.
+I press up my last command and necessary close quote to " fix our problem
+> var wrong = "oops";
+
+---
+
+You might wanna right a commands on a multiply lines. Hold shift key and press enter to make a new line
+> var x = 2;
+var y = 22;
+> x // youll see 2
+> y // youll see 22
+
+---
+
+# Part 2 - Variables and Primitives #
 # Variables #
 
 The word "variable" may be most familiar to you from math class, when you often use letters like x or y to represent numbers.
